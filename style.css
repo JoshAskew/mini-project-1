@@ -1,0 +1,159 @@
+:root {
+    --pink-text: rgb(249, 89, 255);
+    --pink-gradient: linear-gradient(rgba(232, 102, 236, 0.3) 0%,
+            rgba(232, 102, 236, 0.6) 100%);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: var(--pink-text);
+    text-align: center;
+}
+
+body {
+    background-image:
+        linear-gradient(to bottom, #262626, #44434a);
+}
+
+.pink-p {
+    color: var(--pink-text);
+    padding: 5%;
+    margin-top: 7%;
+    margin-bottom: -23px;
+}
+
+code {
+    color: white;
+    font-family: revert;
+}
+
+h2 {
+    color: var(--pink-text);
+    background-color: #3a3a3a;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+    height: 33px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -5%;
+    margin-bottom: -9%;
+    max-width: 264px;
+}
+
+pre {
+    cursor: copy;
+    transition: background-image 3s 1s;
+    background-image: var(--pink-gradient);
+}
+
+pre:hover {
+    background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%,
+    rgb(70, 255, 110) 100%);;
+}
+
+.white-p {
+    color: white;
+    text-align: center;
+    width: 70%;
+    padding-left: 17%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 16px;
+    margin-left: 65px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    height: 253px;
+    border: 2px dashed white;
+    max-width: 307px;
+    margin: 17px;
+}
+
+.box-1 pre {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    line-height: 23px;
+    height: 166px;
+}
+
+.box-2 pre {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    line-height: 23px;
+    height: 166px;
+}
+
+.box-3 pre {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    line-height: 23px;
+    height: 166px;
+}
+
+.box-4,
+.box-5,
+.box-6 {
+    height: 420px;
+    border: 2px dashed white;
+    max-width: 307px;
+    margin: 17px;
+}
+
+.box-4 pre {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    line-height: 25px;
+    height: 330px;
+}
+
+.box-5 pre {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    line-height: 23px;
+    height: 330px;
+}
+
+.box-6 {
+    border: 2px dashed white;
+    max-width: 290px;
+    margin: 17px;
+}
+
+.box-6 pre {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    line-height: 23px;
+    height: 290px;
+}
+
+.box-6 h2 {
+    height: 55px;
+}
+
+h3 {
+    color: var(--pink-text);
+    text-align: center;
+    font-size: 23px;
+}
+
+span::after {
+    content: '❤️'
+}
+
+/* Media Queries */
+
