@@ -185,7 +185,7 @@ span::after {
 
 
 
-  /*Tablet styles */
+  /*Tablet styles needs work
 @media (min-width: 768px) {
     .container {
         flex-direction: row;
@@ -206,7 +206,7 @@ span::after {
     }
 }
 
- /*Desktop styles */
+ /*Desktop styles needs work 
 @media (min-width: 992px) {
     .container {
         flex-direction: row;
