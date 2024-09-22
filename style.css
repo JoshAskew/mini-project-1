@@ -19,6 +19,7 @@ body {
 }
 
 .pink-p {
+
     color: var(--pink-text);
     padding: 5%;
     margin-top: 7%;
@@ -41,7 +42,6 @@ h2 {
     margin-right: 10%;
     margin-top: -5%;
     margin-bottom: -9%;
-    max-width: 264px;
 }
 
 pre {
@@ -74,7 +74,7 @@ pre:hover {
 .box-3 {
     height: 253px;
     border: 2px dashed white;
-    max-width: 307px;
+    width: 30%;
     margin: 17px;
 }
 
@@ -107,7 +107,7 @@ pre:hover {
 .box-6 {
     height: 420px;
     border: 2px dashed white;
-    max-width: 307px;
+    width: 30%;
     margin: 17px;
 }
 
@@ -142,7 +142,7 @@ pre:hover {
 }
 
 .box-6 h2 {
-    height: 55px;
+    height: 60px;
 }
 
 h3 {
@@ -185,7 +185,7 @@ span::after {
 
 
 
-  /*Tablet styles needs work
+  /*Tablet styles needs work*/
 @media (min-width: 768px) {
     .container {
         flex-direction: row;
@@ -206,7 +206,7 @@ span::after {
     }
 }
 
- /*Desktop styles needs work 
+ /*Desktop styles needs work*/
 @media (min-width: 992px) {
     .container {
         flex-direction: row;
